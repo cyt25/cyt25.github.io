@@ -112,6 +112,7 @@
             } else {
                 hi = "No";
             }
+            document.getElementById("status").innerHTML = '';
             document.getElementById("hehe").innerHTML = '<button class="btn btn-lg btn-default" onclick="lol()"><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span> Loading...</button>';
             timeoutID = window.setTimeout(function() {lol2(hi);} , 1000);
         }
