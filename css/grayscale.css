@@ -155,6 +155,10 @@ a:focus {
     -o-background-size: cover;
 }
 
+.lol {
+    background: url(../img/lol-bg2.png) no-repeat bottom center scroll;
+}
+
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
