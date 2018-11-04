@@ -141,11 +141,10 @@ a:focus {
 }
 
 .intro {
-    display: table;
+    display: flex;
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: center;
     color: #fff;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
@@ -155,11 +154,21 @@ a:focus {
     -o-background-size: cover;
 }
 
+.triangle {
+    display: flex;
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 100px solid white;
+    border-left: 100px solid transparent;
+}
+
 .lol {
     background: url(../img/lol-bg2.png) no-repeat bottom center scroll;
 }
 
 .intro .intro-body {
+    margin-top: 10em;
     display: table-cell;
     vertical-align: middle;
 }
@@ -179,7 +188,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 90px;
     }
 
     .intro .intro-body .intro-text {
